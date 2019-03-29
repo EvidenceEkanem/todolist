@@ -1,0 +1,27 @@
+input:focus, input:active{
+    outline: none;
+    border: 1px solid #8a7d7d !important;
+    -webkit-box-shadow: none !important;
+    -moz-box-shadow: none !important;
+    box-shadow: none !important;
+    background-color: #fff !important;
+}
+button:focus{
+    outline: none;
+    border: 1px solid #8a7d7d !important;
+    -webkit-box-shadow: none !important;
+    -moz-box-shadow: none !important;
+    box-shadow: none !important;
+}
+.jumbotron{
+    background-color: #fff;
+    padding: 1.5rem !important;
+}
+a:hover{
+    text-decoration: none;
+    color:black;
+}
+a, .pointer{
+    color: black;
+    cursor: pointer;
+}

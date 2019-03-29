@@ -1,0 +1,43 @@
+{
+    "name": "evidenceekanem/todolist",
+    "description": ":description",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "evidenceekanem",
+            "email": "ekanemevidence@gmail.com",
+            "homepage": "etodolist.com"
+        }
+    ],
+    "homepage": "https://github.com/evidenceekanem/todolist",
+    "keywords": ["Laravel", "todolist"],
+    "require": {
+        "illuminate/support": "~5"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~7.0",
+        "mockery/mockery": "^1.1",
+        "orchestra/testbench": "~3.0",
+        "sempro/phpunit-pretty-print": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "evidenceekanem\\todolist\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "evidenceekanem\\todolist\\Tests\\": "tests"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "evidenceekanem\\todolist\\todolistServiceProvider"
+            ],
+            "aliases": {
+                "todolist": "evidenceekanem\\todolist\\Facades\\todolist"
+            }
+        }
+    }
+}
