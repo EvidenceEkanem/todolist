@@ -1,6 +1,6 @@
 <?php
 
-Route::namespace ('evidenceekanem\laravelTodoList\Controllers')->group(function () {
+Route::namespace ('evidenceekanem\todolist\Controllers')->group(function () {
     Route::get('tasks', 'TaskController@index')->name('tasks.index');
     Route::post('tasks/add', 'TaskController@addTask')->name('tasks.store');
     Route::post('tasks/categories/add', 'TaskController@addCategory')->name('categories.store');
