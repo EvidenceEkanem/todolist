@@ -5,18 +5,38 @@
 [![Build Status][ico-travis]][link-travis]
 [![StyleCI][ico-styleci]][link-styleci]
 
-This is where your description should go. Take a look at [contributing.md](contributing.md) to see a to do list.
+A laravel package that manages your todolist and schedule.
 
 ## Installation
 
-Via Composer
+requirement: [PHP](https://php.net) 5.4+ and [Composer](https://getcomposer.org).
+then run 
 
 ``` bash
 $ composer require evidenceekanem/todolist
 ```
+Via Composer.
+
+For subsequent updates, you'll need to run `composer install` or 'composer update' to download it and have the autoloader refreshed.
+
+On the off chance that you are utilizing an old version of Laravel and the key isn't produced yet, run `php artisan key:generate`.
 
 ## Usage
+run:
 
+```bash
+php artisan migrate
+```
+for database migration.
+
+Visit: 
+
+```bash
+http://{{site-url}}/tasks
+```
+to access the package.
+
+Add task categories and tasks. Enjoy.
 ## Change log
 
 Please see the [changelog](changelog.md) for more information on what has changed recently.
