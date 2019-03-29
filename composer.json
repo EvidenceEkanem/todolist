@@ -1,12 +1,12 @@
 {
     "name": "evidenceekanem/todolist",
-    "description": ":description",
+    "description": "A laravel package that manage your todolist and schedule",
     "license": "MIT",
     "authors": [
         {
             "name": "evidenceekanem",
             "email": "ekanemevidence@gmail.com",
-            "homepage": "etodolist.com"
+            "homepage": "https://github.com/evidenceekanem/"
         }
     ],
     "homepage": "https://github.com/evidenceekanem/todolist",
